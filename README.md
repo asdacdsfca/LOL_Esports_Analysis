@@ -52,4 +52,12 @@ We observe that the patch is distributed differently throughout the year. Some p
 ___
 ## Bivariate Analysis
 
-<iframe src="Assets/Overall.html" width=600 height=600 frameBorder=0></iframe>
+<iframe src="Assets/Jinx.html" width=600 height=600 frameBorder=0></iframe>
+
+**Exaplantion**:
+We observe that the patch is distributed differently throughout the year. Some patches have more games that have `Jinx` and `Aphelios` and some contain less. For example, patch `12.04` have significantly more games that contain `Jinx` and `Aphelios` than patch `12.17`. 
+
+<iframe src="Assets/Aphelios.html" width=600 height=600 frameBorder=0></iframe>
+
+**Exaplantion**:
+We observe that the patch is distributed differently throughout the year. Some patches have more games that have `Jinx` and `Aphelios` and some contain less. For example, patch `12.04` have significantly more games that contain `Jinx` and `Aphelios` than patch `12.17`. 
