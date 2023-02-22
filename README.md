@@ -32,6 +32,7 @@ ___
 4. Now we want to change the **type** of some of the **columns**. The `date` column is now stored as **string** but it makes more sense to have it as **datetime** object. The `result` column is stored as **int64** and we could save memeory if we change it to **bool**
 
 **Here is the first few rows of our cleaned dataframe:**
+
 |   patch | date                | champion   | result   |
 |--------:|:--------------------|:-----------|:---------|
 |   12.01 | 2022-01-10 07:44:08 | Jinx       | True     |
