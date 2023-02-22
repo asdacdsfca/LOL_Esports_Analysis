@@ -11,8 +11,10 @@
  - Here are some of the general statistics about our data:
     - The orignial dataset contains `149232 rows` and `123 columns`
     - The columns that are relevant to our data: 
-        - `patch`: this 
+        - `patch` (Float): contains the information about patch ( patch is similar to a client version. [Click here to read more](https://leagueoflegends.fandom.com/wiki/Patch_(League_of_Legends)#:~:text=A%20patch%20(otherwise%20known%20as,the%20power%20balance%20between%20champions.)).
+         - `date` (String): contains the information of the date that a particular match is played.
+         - `champion` (String): contains information about the champion that the player picked in a particular game.
+         - `result` (Integer): contains information about whether a game is won or lost.
     
-    , `date`, `champion` and `result`
 
 
