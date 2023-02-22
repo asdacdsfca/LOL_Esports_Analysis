@@ -45,3 +45,5 @@ ___
 ## Univariate Analysis
 
 <iframe src="Assets/Patch_Probability_Density1.html" width=600 height=600 frameBorder=0></iframe>
+
+<iframe src="Assets/Number_of_Games.html" width=600 height=600 frameBorder=0></iframe>
