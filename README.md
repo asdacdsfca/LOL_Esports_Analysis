@@ -60,7 +60,7 @@ We observe that the number of games each chacter appears is distributed differen
 <iframe src="Assets/result_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios`. This observation leads us to think: **Is Jinx more Likely to Win than Aphelios at any Given Match?** which is essentially what the anlysis is based on. 
+We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios` at any given match. This observation leads us to think: **Is Jinx more Likely to Win than Aphelios at any Given Match?** which is essentially what the anlysis is about. 
 
 ___
 ### Interesting Aggregates
@@ -122,7 +122,7 @@ ___
 ___
 ## Hypothesis Testing
 **Null Hypothesis:**
-In the population, win rate of `Jinx` and `Aphelios` at any Given Match have the same distribution, and the observed differences in our samples are due to random chance.
+In the population, win rate of `Jinx` and `Aphelios` at any given match have the same distribution, and the observed differences in our samples are due to random chance.
 
 **Alternative Hypothesis:**
-In the population, `Jinx` has higher win rate than `Aphelios` at any Given Match, on average. The observed difference in our samples cannot be explained by random chance alone.
+In the population, `Jinx` has higher win rate than `Aphelios` at any given match, on average. The observed difference in our samples cannot be explained by random chance alone.
