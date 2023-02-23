@@ -5,7 +5,7 @@ ___
 ## Introduction to Dataset
 - Our data contains the information of **LoL** (League of Legends, a popular moba games) **esports matches** in **2022**.
  - The data is taken from [this website](https://oracleselixir.com/tools/downloads)
- - The question our analysis is investigate on is 
+ - The question our analysis investigates on is 
  : 
  
  *Is Jinx more Likely to Win than Aphelios at any Given Match?*
@@ -55,7 +55,7 @@ ___
 <iframe src="Assets/date_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that the **J. 
+We observe that the number of games each chacter appears is distributed differently throughout the year. Some date intervals have more games that have `Jinx` and `Aphelios` and some contain less. For example, in `February` have significantly more games that contain `Jinx` and `Aphelios` than `December`. Another observation is  
 
 <iframe src="Assets/result_champ.html" width=600 height=600 frameBorder=0></iframe>
 
