@@ -19,7 +19,7 @@ ___
          - `result` (Integer): contains information about whether a game is won or lost.
 
 ___
-## Data Cleaning
+### Data Cleaning
 
 **steps**:
 
@@ -42,7 +42,7 @@ ___
 |   12.01 | 2022-01-10 10:09:22 | Jinx       | True     |
 
 ___
-## Univariate Analysis
+### Univariate Analysis
 
 <iframe src="Assets/champ.html" width=600 height=600 frameBorder=0></iframe>
 
@@ -50,7 +50,7 @@ ___
 We observe that the **Jinx** has lower pick rate than **Aphelios**.  
 
 ___
-## Bivariate Analysis
+### Bivariate Analysis
 
 <iframe src="Assets/date_character.html" width=600 height=600 frameBorder=0></iframe>
 
@@ -63,7 +63,7 @@ We observe that the number of games each chacter appears is distributed differen
 We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios`. This observation leads us to think: **Is Jinx more Likely to Win than Aphelios at any Given Match?** which is essentially what the anlysis is based on. 
 
 ___
-## Interesting Aggregates
+### Interesting Aggregates
 
 |   patch | champion   |   result |
 |--------:|:-----------|---------:|
@@ -113,4 +113,11 @@ ___
 |   12.23 | Jinx       | 1        |
 
 **Exaplantion**:
-This grouped table shows the win rate of `Jinx` and `Aphelios` individually by `patch`. Though this is not closely related to our anlysis question, however, this leads us to think an interesting question: **Does patch influence the win rate difference between Jinx and Aphelios?**. Some idea we have in mind would be performing a `ANOVA` F-test, though we are not going to explore this topic on this project. 
+This grouped table shows the win rate of `Jinx` and `Aphelios` individually by `patch`. Though this is not closely related to our anlysis question, however, this leads us to think an interesting question: **Does patch influence the win rate difference between Jinx and Aphelios?**. Some idea we have in mind would be performing a `ANOVA` F-test, though we are not going to explore this topic on this project.
+
+___
+## Assessment of Missingness
+
+
+___
+## Hypothesis Testing
