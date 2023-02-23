@@ -52,7 +52,7 @@ We observe that the **Jinx** has lower pick rate than **Aphelios**.
 ___
 ## Bivariate Analysis
 
-<iframe src="Assets/date_champ.html" width=600 height=600 frameBorder=0></iframe>
+<iframe src="Assets/date_character.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
 We observe that the number of games each chacter appears is distributed differently throughout the year. Some date intervals have more games that have `Jinx` and `Aphelios` and some contain less. For example `February` has significantly more games that contain `Jinx` and `Aphelios` than `December`. Another observation is that `Aphelios` appeared in more games in most of the date intervals than `Jinx`.
@@ -64,7 +64,7 @@ We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios
 
 ___
 ## Interesting Aggregates
- 
+
 |   patch | champion   |   result |
 |--------:|:-----------|---------:|
 |   12.01 | Aphelios   | 0.49375  |
