@@ -28,7 +28,7 @@ ___
 ``` 
 ['patch', 'datacompleteness', 'champion', 'result']
 ```
-3. We observe that `patch` has **missing values** and we observe that `patch` is related to `date`. If the `date` is in a certain range then the missing patch must be the **same** as other games in this range. 
+3. We observe that `patch` has **missing values** and through our research we found that `patch` is related to `date`. [Click here to read the official source](https://leagueoflegends.fandom.com/wiki/Patch_(League_of_Legends)#:~:text=A%20patch%20(otherwise%20known%20as,the%20power%20balance%20between%20champions.)). If the `date` is in a certain range then the missing patch must be the **same** as other games in this range. 
 4. Now we want to change the **type** of some of the **columns**. The `date` column is now stored as **string** but it makes more sense to have it as **datetime** object. The `result` column is stored as **int64** and we could save memeory if we change it to **bool**
 
 **Here is the first few rows of our cleaned dataframe:**
@@ -55,7 +55,7 @@ ___
 <iframe src="Assets/date_character.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that the number of games each chacter appears is distributed differently throughout the year. Some date intervals have more games that have `Jinx` and `Aphelios` and some contain less. For example `February` has significantly more games that contain `Jinx` and `Aphelios` than `December`. Another observation is that `Aphelios` appeared in more games in most of the date intervals than `Jinx`.
+We observe that the number of games each chacter appears is distributed differently throughout the year. Some date intervals have more games that have `Jinx` and `Aphelios` and some contain less. For example `February` has significantly more games that contain `Jinx` and `Aphelios` than `December`. Another observation is that in some month `Aphelios` appeared in more games than `Jinx` and vise versa. 
 
 <iframe src="Assets/result_champ.html" width=600 height=600 frameBorder=0></iframe>
 
