@@ -128,8 +128,8 @@ ___
 ___
 ### Missingness Dependency
 
-**Missingness Dependency Investigation Question:**
-*Does Missingness in `patch` column  depend on month of `date` column.*
+**Missingness Dependency Investigation Question (does depends on):**
+*Does Missingness in `patch` column  depend on month of `date` column?*
 
 Our **null hypothesis** is that the distribution of the `month` where the patch is missing is same as the distribution of the `month` where the patch is not missing.
 
