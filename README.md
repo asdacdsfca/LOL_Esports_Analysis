@@ -60,4 +60,4 @@ We observe that the number of games each chacter appears is distributed differen
 <iframe src="Assets/result_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios`. This observation leads us to think **Is Jinx more Likely to Win than Aphelios at any Given Match** which is essentially what the anlysis is based on. 
+We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios`. This observation leads us to think: **Is Jinx more Likely to Win than Aphelios at any Given Match?** which is essentially what the anlysis is based on. 
