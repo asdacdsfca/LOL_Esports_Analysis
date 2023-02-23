@@ -113,7 +113,7 @@ ___
 |   12.23 | Jinx       | 1        |
 
 **Exaplantion**:
-This grouped table shows the win rate of `Jinx` and `Aphelios` individually by `patch`. Though this is not closely related to our anlysis question, however, this leads us to think an interesting question: **Does patch influence the win rate difference between Jinx and Aphelios?**. Some idea we have in mind would be performing a `ANOVA` F-test, though we are not going to explore this topic on this project.
+This grouped table shows the win rate of `Jinx` and `Aphelios` individually by `patch`. Though this is not closely related to our anlysis question, however, this leads us to think of an interesting question: **Does patch influence the win rate difference between Jinx and Aphelios?**. Some idea we have in mind would be performing an `ANOVA` F-test, though we are not going to explore this topic on this project.
 
 ___
 ## Assessment of Missingness
