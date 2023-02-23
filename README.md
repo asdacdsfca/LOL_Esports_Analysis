@@ -121,3 +121,8 @@ ___
 
 ___
 ## Hypothesis Testing
+**Null Hypothesis:**
+In the population, win rate of `Jinx` and `Aphelios` at any Given Match have the same distribution, and the observed differences in our samples are due to random chance.
+
+**Alternative Hypothesis:**
+In the population, `Jinx` has higher win rate than `Aphelios` at any Given Match, on average. The observed difference in our samples cannot be explained by random chance alone.
