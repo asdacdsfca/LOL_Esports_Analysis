@@ -8,12 +8,12 @@ ___
  - The question our analysis is investigate on is 
  : 
  
- *Does patch influence the win rate difference between Aphelios and Jinx?*
+ *Is Jinx more Likely to Win than Aphelios at any Given Match?*
  - This question is crucial for understanding the **mechanism** of picking characters in LoL professional esports games and the **overall design/fairness** of the game.
  - Here are some of the general statistics about our data:
     - The orignial dataset contains `149232 rows` and `123 columns`
     - The columns that are relevant to our data: 
-        - `patch` (Float): contains the information about patch ( patch is similar to a client version. [Click here to read more](https://leagueoflegends.fandom.com/wiki/Patch_(League_of_Legends)#:~:text=A%20patch%20(otherwise%20known%20as,the%20power%20balance%20between%20champions.)).
+        - `patch` (Float): contains the information about patch ( patch is similar to a client version. [Click here to read more](https://leagueoflegends.fandom.com/wiki/Patch_(League_of_Legends)#:~:text=A%20patch%20(otherwise%20known%20as,the%20power%20balance%20between%20champions.)). (**!!!Note: We ended up not using this column in our hypothesis test but chose to keep it as it makes our analysis part more smooth**)
          - `date` (String): contains the information of the date that a particular match is played.
          - `champion` (String): contains information about the champion that the player picked in a particular game.
          - `result` (Integer): contains information about whether a game is won or lost.
@@ -28,7 +28,7 @@ ___
 ``` 
 ['patch', 'datacompleteness', 'champion', 'result']
 ```
-3. We observe that `patch` has **missing values** and we observe that `patch` is related to `date`. If the `date` is in a certain range then the missing patch must be the **same** as other games in this range.
+3. We observe that `patch` has **missing values** and we observe that `patch` is related to `date`. If the `date` is in a certain range then the missing patch must be the **same** as other games in this range. 
 4. Now we want to change the **type** of some of the **columns**. The `date` column is now stored as **string** but it makes more sense to have it as **datetime** object. The `result` column is stored as **int64** and we could save memeory if we change it to **bool**
 
 **Here is the first few rows of our cleaned dataframe:**
