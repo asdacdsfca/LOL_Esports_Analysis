@@ -55,9 +55,9 @@ ___
 <iframe src="Assets/date_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that the number of games each chacter appears is distributed differently throughout the year. Some date intervals have more games that have `Jinx` and `Aphelios` and some contain less. For example, in `February` have significantly more games that contain `Jinx` and `Aphelios` than `December`. Another observation is that `Aphelios` appeared in more games in most of the date intervals than `Jinx`.
+We observe that the number of games each chacter appears is distributed differently throughout the year. Some date intervals have more games that have `Jinx` and `Aphelios` and some contain less. For example `February` has significantly more games that contain `Jinx` and `Aphelios` than `December`. Another observation is that `Aphelios` appeared in more games in most of the date intervals than `Jinx`.
 
 <iframe src="Assets/result_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that `Jinx` has a higher **overall** win rate than `Aphelios`. This observation leads us to think **Is Jinx more Likely to Win than Aphelios at any Given Match** which is essentially what the anlysis is based on. 
+We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios`. This observation leads us to think **Is Jinx more Likely to Win than Aphelios at any Given Match** which is essentially what the anlysis is based on. 
