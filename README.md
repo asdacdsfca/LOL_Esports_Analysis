@@ -61,3 +61,55 @@ We observe that the number of games each chacter appears is distributed differen
 
 **Exaplantion**:
 We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios`. This observation leads us to think: **Is Jinx more Likely to Win than Aphelios at any Given Match?** which is essentially what the anlysis is based on. 
+
+___
+## Interesting Aggregates 
+|   patch | champion   |   result |
+|--------:|:-----------|---------:|
+|   12.01 | Aphelios   | 0.49375  |
+|   12.01 | Jinx       | 0.542453 |
+|   12.02 | Aphelios   | 0.478723 |
+|   12.02 | Jinx       | 0.505455 |
+|   12.03 | Aphelios   | 0.473002 |
+|   12.03 | Jinx       | 0.530055 |
+|   12.04 | Aphelios   | 0.480328 |
+|   12.04 | Jinx       | 0.537805 |
+|   12.05 | Aphelios   | 0.495475 |
+|   12.05 | Jinx       | 0.5      |
+|   12.06 | Aphelios   | 0.5      |
+|   12.06 | Jinx       | 0.521739 |
+|   12.07 | Aphelios   | 0.6875   |
+|   12.07 | Jinx       | 0.575    |
+|   12.08 | Aphelios   | 0.352941 |
+|   12.08 | Jinx       | 0.333333 |
+|   12.09 | Aphelios   | 0.434783 |
+|   12.09 | Jinx       | 0.432432 |
+|   12.1  | Aphelios   | 0.6      |
+|   12.1  | Jinx       | 0.478992 |
+|   12.11 | Aphelios   | 0.568047 |
+|   12.11 | Jinx       | 0.398438 |
+|   12.12 | Aphelios   | 0.508642 |
+|   12.12 | Jinx       | 0.395833 |
+|   12.13 | Aphelios   | 0.478022 |
+|   12.13 | Jinx       | 0.48     |
+|   12.14 | Aphelios   | 0.459184 |
+|   12.14 | Jinx       | 0.387755 |
+|   12.15 | Aphelios   | 0.57265  |
+|   12.15 | Jinx       | 0.428571 |
+|   12.16 | Aphelios   | 0.433962 |
+|   12.16 | Jinx       | 0.5      |
+|   12.17 | Aphelios   | 1        |
+|   12.17 | Jinx       | 0.333333 |
+|   12.18 | Aphelios   | 0.526316 |
+|   12.18 | Jinx       | 0.346154 |
+|   12.19 | Aphelios   | 0.363636 |
+|   12.19 | Jinx       | 0.545455 |
+|   12.2  | Aphelios   | 0.46875  |
+|   12.2  | Jinx       | 0.4      |
+|   12.21 | Aphelios   | 0.4375   |
+|   12.21 | Jinx       | 0.2      |
+|   12.23 | Aphelios   | 0.25     |
+|   12.23 | Jinx       | 1        |
+
+**Exaplantion**:
+This grouped table shows the win rate of `Jinx` and `Aphelios` individually by `patch`. Though this is not closely related to our anlysis question, however, this leads us to think an interesting question: **Does patch influence the win rate difference between Jinx and Aphelios?**. Some idea we have in mind would be performing a `ANOVA` F-test, though we are not going to explore this topic on this project. 
