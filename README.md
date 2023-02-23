@@ -44,20 +44,20 @@ ___
 ___
 ## Univariate Analysis
 
-<iframe src="Assets/Patch_Probability_Density1.html" width=600 height=600 frameBorder=0></iframe>
+<iframe src="Assets/champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that the patch is distributed differently throughout the year. Some patches have more games that have `Jinx` and `Aphelios` and some contain less. For example, patch `12.04` have significantly more games that contain `Jinx` and `Aphelios` than patch `12.17`. 
+We observe that the **Jinx** has lower pick rate than **Aphelios**.  
 
 ___
 ## Bivariate Analysis
 
-<iframe src="Assets/Jinx.html" width=600 height=600 frameBorder=0></iframe>
+<iframe src="Assets/date_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that the patch is distributed differently throughout the year. Some patches have more games that have `Jinx` and `Aphelios` and some contain less. For example, patch `12.04` have significantly more games that contain `Jinx` and `Aphelios` than patch `12.17`. 
+We observe that the **J. 
 
-<iframe src="Assets/Aphelios.html" width=600 height=600 frameBorder=0></iframe>
+<iframe src="Assets/result_champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
 We observe that the patch is distributed differently throughout the year. Some patches have more games that have `Jinx` and `Aphelios` and some contain less. For example, patch `12.04` have significantly more games that contain `Jinx` and `Aphelios` than patch `12.17`. 
