@@ -137,6 +137,7 @@ Missingness in `patch` column does depend on month of `date` column.
 After investigating the dataset, we find that the `patch` column has **108** missing values over all 149232 values, and the missingness **may** depend on the month of the `date` column. So, we want to identify whether the missingness depends on the month of the `date` column.(**!!!Note: we used the month instead of the whole datetime is because all the time is within the same year and it will be easier to compare within each month rather than each different time from days. And if we find there is a relationship between month and missingness of patch, we can also conclude that there is a relationship between date and missingness of patch.**).
 
 Our **null hypothesis** is that the distribution of the `month` where the patch is missing is same as the distribution of the `month` where the patch is not missing. We then use the **TVD test** to test the null hypothesis and find out the **p-value** is close to 0.0 under 500 repetitions. This rejects our null hypothesis so that we can conclude the missingness in the `patch` column depends on the month of the `date` column.
+
 ___
 ## Hypothesis Testing
 **Null Hypothesis:**
