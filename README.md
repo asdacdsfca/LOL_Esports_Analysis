@@ -31,7 +31,10 @@ ___
 ['patch', 'datacompleteness', 'champion', 'result']
 ```
 3. We observe that `patch` has **missing values** and through our research we found that `patch` is related to `date`. [Click here to read the official source](https://leagueoflegends.fandom.com/wiki/Patch_(League_of_Legends)#:~:text=A%20patch%20(otherwise%20known%20as,the%20power%20balance%20between%20champions.)). If the `date` is in a certain range then the missing patch must be the **same** as other games in this range. 
-4. Now we want to change the **type** of some of the **columns**. The `date` column is now stored as **string** but it makes more sense to have it as **datetime** object. The `result` column is stored as **int64** and we could save memeory if we change it to **bool**
+
+4. Based on the observation from **step3**, we imputed the `patch` column based on `date`. 
+
+5. Now we want to change the **type** of some of the **columns**. The `date` column is now stored as **string** but it makes more sense to have it as **datetime** object. The `result` column is stored as **int64** and we could save memeory if we change it to **bool**
 
 **Here is the first few rows of our cleaned dataframe:**
 
