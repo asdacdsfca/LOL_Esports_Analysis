@@ -22,7 +22,7 @@ ___
          - `result` (Integer): contains information about whether a game is won or lost.
 
 ___
-### Data Cleaning
+**Data Cleaning**
 
 **steps**:
 
@@ -48,7 +48,7 @@ ___
 |   12.01 | 2022-01-10 10:09:22 | Jinx       | True     |
 
 ___
-### Univariate Analysis
+**Univariate Analysis**
 
 <iframe src="Assets/champ.html" width=600 height=600 frameBorder=0></iframe>
 
@@ -56,7 +56,7 @@ ___
 Based on histogramof pick rate between Jinx and Aphelios, we observed Jinx has a lower pick rate than Aphelios over the entire dataset.  
 
 ___
-### Bivariate Analysis
+**Bivariate Analysis**
 
 <iframe src="Assets/date_character.html" width=600 height=600 frameBorder=0></iframe>
 
@@ -69,7 +69,7 @@ We observe that the number of games each chacter appears is distributed differen
 We observe that `Jinx` has a slightly higher **overall** win rate than `Aphelios` at any given match. This observation leads us to think: **Is Jinx more Likely to Win than Aphelios at any Given Match?** which is essentially what the anlysis is about. 
 
 ___
-### Interesting Aggregates
+**Interesting Aggregates**
 
 |   patch | champion   |   result |
 |--------:|:-----------|---------:|
@@ -125,14 +125,14 @@ ___
 ## Assessment of Missingness
 
 ___
-### NMAR Analysis
+**NMAR Analysis**
  - We believe the **missingness** in the `monsterkillsownjungle` and `monsterkillsenemyjungle` columns is **NMAR**. 
     - First, it is not **MD** and **MAR** because its missingness **does not** depend on any other column in the dataset. We have investigated all possible columns, such as `datacompleteness`, `date`, `league`, etc., that could be related. Still, none of them seems to have a relationship with the missingness, meaning we can find the missingness **evenly distribute in all other columns**. Because of this, we cannot determine the missing value precisely by looking at the other columns. 
     - Second, **there is a good reason why the missingness depends on the values themselves**. After our investigation from the `league` column on the missing value of `monsterkillsownjungle` and `monsterkillsenemyjungle` columns, we find that some leagues, such as `LDL` and `LPL`, are doing a great job of recording the value for `monsterkillsownjungle` and `monsterkillsenemyjungle` columns. However, some matches **still** miss the values of `monsterkillsownjungle` and `monsterkillsenemyjungle`. We think the value for the `monsterkillsownjungle` and `monsterkillsenemyjungle` columns **may be recorded depending on where the match happens**. And in some locations (since matches in a region happens may happens in different cities, [read more about it here](https://liquipedia.net/leagueoflegends/LPL/2023/Spring)). Some of them may not have the rule to record this kind of data. We may explain the missingness if we collect all matches’ locations (cities) or rubrics for recording monster kills in their jungle and enemy jungle for each player.
     - Lastly, it is not **MCAR** because it may depend on the values themselves, such as some matches may have different rubrics for recording specific data.
 
 ___
-### Missingness Dependency
+**Missingness Dependency**
 
 **Missingness Dependency Investigation Question (does depends on):**
 *Does Missingness in `patch` column  depend on month of `date` column?*
