@@ -10,7 +10,7 @@ ___
  - The question our analysis investigates on is 
  : 
 
- *Is Jinx more Likely to Win than Aphelios at any Given Match in 2022?*
+ *Is `Jinx` more Likely to Win than `Aphelios` at any Given Match in 2022?*
 
  - This question is crucial for understanding the **mechanism** of picking characters in LoL professional esports games and the **overall design/fairness** of the game.
  - Here are some of the general statistics about our data:
