@@ -159,11 +159,15 @@ Our **null hypothesis** is that the distribution of the `result` where the `patc
 **Investigation:**
 After investigating the dataset, we find that the `patch` column has **108** missing values over all 149232 values, and the missingness **may** depend on the `result` column. So, we want to identify whether the missingness depends on thethe `result` column.
 
+
+**Graph Shows the Distribution of Missingness by `Result`**
+
+
 <iframe src="Assets/missing_result.html" width=600 height=600 frameBorder=0></iframe>
 
 We use the **TVD test** to test the null hypothesis and find out the **p-value** is close to 1 under 500 repetitions.
 
-**Graph Shows the Distribution of Missingness by `Result`**
+
 <iframe src="Assets/doesnot.html" width=600 height=600 frameBorder=0></iframe>
 
 **Result:**
