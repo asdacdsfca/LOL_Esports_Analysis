@@ -131,7 +131,8 @@ ___
 **Missingness Dependency Investigation Question (does depends on):**
 *Does Missingness in `patch` column  depend on month of `date` column?*
 
-Our **null hypothesis** is that the distribution of the `month` where the patch is missing is same as the distribution of the `month` where the patch is not missing.
+Our **null hypothesis** is that the distribution of the `month` where the `patch` is missing is same as the distribution of the `month` where the `patch` is not missing.
+**Alternative hypothesis** is that the distribution of the `month` where the patch is missing is not the same as the distribution of the `month` where the patch is not missing.
 
 **Investigation:**
 After investigating the dataset, we find that the `patch` column has **108** missing values over all 149232 values, and the missingness **may** depend on the month of the `date` column. So, we want to identify whether the missingness depends on the month of the `date` column.(**!!!Note: we used the month instead of the whole datetime is because all the time is within the same year and it will be easier to compare within each month rather than each different time from days. And if we find there is a relationship between month and missingness of patch, we can also conclude that there is a relationship between date and missingness of patch.**).
@@ -144,9 +145,22 @@ We use the **TVD test** to test the null hypothesis and find out the **p-value**
 
 <iframe src="Assets/tvd.html" width=600 height=600 frameBorder=0></iframe>
 
-
 **Result:**
 We reject our null hypothesis so that we can conclude the missingness in the `patch` column depends on the month of the `date` column.
+
+
+**Missingness Dependency Investigation Question (does not depends on):**
+*Does Missingness in `patch` column  depend on month of `result` column?* 
+
+Our **null hypothesis** is that the distribution of the `result` where the `patch` is missing is same as the distribution of the `result` where the `patch` is not missing.
+**Alternative hypothesis** is that the distribution of the `result` where the `patch` is missing is not the same as the distribution of the `result` where the `patch` is not missing.
+
+**Investigation:**
+After investigating the dataset, we find that the `patch` column has **108** missing values over all 149232 values, and the missingness **may** depend on the `result` column. So, we want to identify whether the missingness depends on thethe `result` column.
+
+<iframe src="Assets/missing_result.html" width=600 height=600 frameBorder=0></iframe>
+
+<iframe src="Assets/doesnot.html" width=600 height=600 frameBorder=0></iframe>
 
 ___
 ## Hypothesis Testing
