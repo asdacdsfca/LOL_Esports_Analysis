@@ -1,4 +1,4 @@
-# LoL Esports Matches Analysis
+# LoL Esports Matches Win Rate Analysis
 by Andrew Zhao (yiz158@ucsd.edu)
 
 Yiheng Yuan (yiy159@ucsd.edu)
