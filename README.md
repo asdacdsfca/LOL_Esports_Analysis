@@ -149,7 +149,7 @@ We use the **TVD test** to test the null hypothesis and find out the **p-value**
 <iframe src="Assets/tvd.html" width=600 height=600 frameBorder=0></iframe>
 
 **Result:**
-We reject our null hypothesis so that we can conclude the missingness in `patch` column does depend on month of  `date` column. Additionally, the missingness is not MD because we cannot exactly predict the missingness from `date`. (Note: there are still patch values that are not missing and is from the same month where the patch is missing).
+We reject our null hypothesis that the missingness in `patch` column does depend on month of  `date` column. Additionally, the missingness is not MD because we cannot exactly predict the missingness from `date`. (Note: there are still patch values that are not missing and is from the same month where the patch is missing).
 
 ___
 **Missingness Dependency Investigation Question (does not depends on):**
@@ -200,4 +200,4 @@ TVD, Permutation
 0.141
 
 **Conclusion:**
-Since our p-value is higher than significance level, 0.05, we fail reject our null hypothesis. We conclude that in the population, win rate of `Jinx` and `Aphelios` at any given match in 2022 have the same distribution, and the observed differences in our samples are due to random chance at a significance level of 0.05.
+Since our p-value is higher than significance level, 0.05, we fail reject our null hypothesis that in the population, win rate of `Jinx` and `Aphelios` at any given match in 2022 have the same distribution, and the observed differences in our samples are due to random chance at a significance level of 0.05.
