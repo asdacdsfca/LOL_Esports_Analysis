@@ -22,9 +22,9 @@ ___
          - `result` (Integer): contains information about whether a game is won or lost.
 
 ___
-**Data Cleaning**
+## Cleaning and EDA
 
-**steps**:
+**Data Cleaning steps**:
 
 1. Clean out the `position` that equals to **team** so we are only looking at the data of **players**
 2. We **extract** the **columns** that are needed for furthur investigation
