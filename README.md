@@ -199,5 +199,7 @@ TVD, Permutation
 **Result P-value:**
 0.141
 
+*(Explanation:)*  the probability, when the null hypothesis is true, the TVD result from permutation would be equal to or more extreme than the actual observed results
+
 **Conclusion:**
 Since our p-value is higher than significance level, 0.05, we fail reject our null hypothesis that in the population, win rate of `Jinx` and `Aphelios` at any given match in 2022 have the same distribution, and the observed differences in our samples are due to random chance at a significance level of 0.05.
