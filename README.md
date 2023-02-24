@@ -181,4 +181,13 @@ In the population, win rate of `Jinx` and `Aphelios` at any given match have the
 **Alternative Hypothesis:**
 In the population, `Jinx` has higher win rate than `Aphelios` at any given match, on average. The observed difference in our samples cannot be explained by random chance alone.
 
-**Result:**
+**Test Statistics:**
+TVD
+
+**Significance Level:**
+0.05
+
+**Result P-value:**
+0.141
+
+**Conclusion:**
