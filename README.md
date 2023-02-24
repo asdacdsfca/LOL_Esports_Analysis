@@ -171,7 +171,7 @@ After investigating the dataset, we find that the `patch` column has **108** mis
 
 <iframe src="Assets/missing_result.html" width=600 height=600 frameBorder=0></iframe>
 
-We use the **TVD test** to test the null hypothesis and find out the **p-value** is close to 1 under 500 repetitions.
+We use the **TVD test** to test the null hypothesis and find out the **p-value** is close to 1 under 500 repetitions. **Note: p-value of 1.0 may seems unnormal but that is because our dataset is so large that the result contain in it is likely to be half win and half lose, and it is evenly distributed. So that by random suffling the `patch` column, the result will still likely to be half win and half lose. As randomness is also evenly distributed. And our observed tvd is so small, close to 0, due to the similarity of the distribution between result on patch is missing and result on patch is not missing.**
 
 
 <iframe src="Assets/doesnot.html" width=600 height=600 frameBorder=0></iframe>
