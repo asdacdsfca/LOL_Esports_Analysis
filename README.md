@@ -148,7 +148,7 @@ We use the **TVD test** to test the null hypothesis and find out the **p-value**
 **Result:**
 We reject our null hypothesis so that we can conclude the missingness in the `patch` column depends on the month of the `date` column.
 
-
+___
 **Missingness Dependency Investigation Question (does not depends on):**
 *Does Missingness in `patch` column  depend on month of `result` column?* 
 
@@ -160,7 +160,12 @@ After investigating the dataset, we find that the `patch` column has **108** mis
 
 <iframe src="Assets/missing_result.html" width=600 height=600 frameBorder=0></iframe>
 
+We use the **TVD test** to test the null hypothesis and find out the **p-value** is close to 1 under 500 repetitions.
+
 <iframe src="Assets/doesnot.html" width=600 height=600 frameBorder=0></iframe>
+
+**Result:**
+We fail to reject our null hypothesis so that we can not conclude the missingness in the `patch` column depends on `result` column.
 
 ___
 ## Hypothesis Testing
