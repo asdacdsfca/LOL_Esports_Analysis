@@ -181,10 +181,14 @@ ___
 In the population, win rate of `Jinx` and `Aphelios` at any given match have the same distribution, and the observed differences in our samples are due to random chance.
 
 **Alternative Hypothesis:**
-In the population, `Jinx` has higher win rate than `Aphelios` at any given match, on average. The observed difference in our samples cannot be explained by random chance alone.
+In the population, `Jinx` has higher win rate than `Aphelios` at any given match, on average. The observed difference in our samples cannot be explained by random chance alone. 
+
+*(Justification:)* we chose to frame our null and alternative hypothesis in this way because we observed that `Jinx` has a slightly higher overall win rate than `Aphelios` so we want to test whether this observation was due to a random chance. 
 
 **Test Statistics:**
-TVD
+TVD, Permutation
+
+*(Justification:)* the win rate of these two champions are two samples
 
 **Significance Level:**
 0.05
@@ -193,4 +197,4 @@ TVD
 0.141
 
 **Conclusion:**
-Since our p-value is higher than significance level, 0.05, we fail reject our null hypothesis. We conclude that in the population, win rate of `Jinx` and `Aphelios` at any given match have the same distribution, and the observed differences in our samples are due to random chance at a significance level of 0.05.
+Since our p-value is higher than significance level, 0.05, we fail reject our null hypothesis. We conclude that in the population, win rate of `Jinx` and `Aphelios` at any given match in 2022 have the same distribution, and the observed differences in our samples are due to random chance at a significance level of 0.05.
