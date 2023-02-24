@@ -188,7 +188,7 @@ In the population, `Jinx` has higher win rate than `Aphelios` at any given match
 *(Justification:)* we chose to frame our null and alternative hypothesis in this way because we observed that `Jinx` has a slightly higher overall win rate than `Aphelios` so we want to test whether this observation was due to a random chance. 
 
 **Test Statistics:**
-TVD, Permutation
+TVD (in a Permutation test)
 
 *(Justification:)* we chose to use permutation test because we want to test if the win rate of these two champions, which are two samples, are from the same distribution. We chose to use TVD as our test statiscs because `champion` and `result` are categorical. 
 
