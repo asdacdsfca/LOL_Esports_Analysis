@@ -1,6 +1,6 @@
 # LoL Esports Matches Analysis
 by Andrew Zhao (yiz158@ucsd.edu)
-
+Yiheng Yuan (yiy159@ucsd.edu)
 ___
 ## Introduction to Dataset
 - Our data contains the information of **LoL** (League of Legends, a popular moba games) **esports matches** in **2022**.
@@ -180,3 +180,5 @@ In the population, win rate of `Jinx` and `Aphelios` at any given match have the
 
 **Alternative Hypothesis:**
 In the population, `Jinx` has higher win rate than `Aphelios` at any given match, on average. The observed difference in our samples cannot be explained by random chance alone.
+
+**Result:**
