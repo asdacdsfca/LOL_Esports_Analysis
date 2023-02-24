@@ -193,3 +193,4 @@ TVD
 0.141
 
 **Conclusion:**
+Since our p-value is higher than significance level, 0.05, we fail reject our null hypothesis. We conclude that in the population, win rate of `Jinx` and `Aphelios` at any given match have the same distribution, and the observed differences in our samples are due to random chance at a significance level of 0.05.
