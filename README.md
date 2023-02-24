@@ -188,10 +188,13 @@ In the population, `Jinx` has higher win rate than `Aphelios` at any given match
 **Test Statistics:**
 TVD, Permutation
 
-*(Justification:)* the win rate of these two champions are two samples
+*(Justification:)* we chose to use permutation test because we want to test if the win rate of these two champions, which are two samples, are from the same distribution. We chose to use TVD as our test statiscs because `champion` and `result` are categorical. 
 
 **Significance Level:**
 0.05
+
+*(Justification:)* by convention. 
+
 
 **Result P-value:**
 0.141
