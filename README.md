@@ -51,7 +51,7 @@ ___
 <iframe src="Assets/champ.html" width=600 height=600 frameBorder=0></iframe>
 
 **Exaplantion**:
-We observe that the **Jinx** has lower pick rate than **Aphelios**.  
+Based on histogramof pick rate between Jinx and Aphelios, we observed Jinx has a lower pick rate than Aphelios over the entire dataset.  
 
 ___
 ### Bivariate Analysis
